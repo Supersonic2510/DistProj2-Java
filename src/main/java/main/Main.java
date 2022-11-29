@@ -16,7 +16,7 @@ public class Main {
         LinkedList<Integer> linkedList = new LinkedList<>();
         Random random = new Random();
 
-        while (random.nextInt(0, 100000) % 100000 != 0) {
+        while (random.nextInt(0, 1000) % 1000 != 0) {
             linkedList.add(random.nextInt(0, 100));
         }
 
